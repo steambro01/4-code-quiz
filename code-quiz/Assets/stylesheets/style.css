@@ -1,0 +1,36 @@
+.hidden{
+    display: none;
+}
+#highScore{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    /* add space between nav and questions */
+    margin-bottom: 50px;
+}
+.flexcontainer{
+    display: flex;
+    width:100%;
+    margin: 10px;
+    /* border: 10px solid black; */
+    justify-content: center;
+}
+.flexcontainer form ul li{
+    list-style: none; /*remove bullet points from list items*/
+    display: block;
+    width: 100%;
+    color: white;
+    margin: 10px;
+    
+}
+.flexcontainer form button{
+    display: flex;
+    background-color: purple;
+    margin: 2%;
+}
+
+/* start screen */
+#startScreen{
+    text-align: center;
+}

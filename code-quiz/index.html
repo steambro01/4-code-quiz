@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Assets/stylesheets/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <nav>
+        <!-- link to high scores -->
+        <a href="Assets/html/highScores.html" target="_blank" id="highScore">View Highscores</a>
+        <!-- shows time left on quiz -->
+        <p id="time"></p>
+    </nav>
+
+    <div id="startScreen">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers will penalize your time by 10 seconds!</p>
+        <button type="button" value="start quiz" id="startBtn">Start</button>
+    </div>
+    <div id="questions" class="flexcontainer ">
+        
+        <form action="" method="post" class="hidden" id="answersForm">
+            <p class="question" >test question</p>
+            <ul>
+               <button type="button" value="answer-choice"> <li class="answer">A.) how much wood could a wood chucker chuck if a wood chucker could chuck wood?</li></button>
+               <button type="button" value="answer-choice"> <li class="answer">B.) how much wood could a wood chucker chuck if a wood chucker could chuck wood?</li></button>
+               <button type="button" value="answer-choice"> <li class="answer">C.) how much wood could a wood chucker chuck if a wood chucker could chuck wood?</li></button>
+               <button type="button" value="answer-choice"> <li class="answer">D.) how much wood could a wood chucker chuck if a wood chucker could chuck wood?</li></button>
+            </ul> 
+         </form>
+    </div>
+
+    <div id="answers"></div>
+    <hr>
+    <div id="correct" class="hidden">Correct!</div>
+
+    <div id="wrong" class="hidden">Wrong!</div>
+
+    <div></div>
+    <script src="Assets/scripts/script.js"></script>
+</body>
+</html>
